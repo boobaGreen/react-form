@@ -23,7 +23,7 @@ export default function NavigationsSteps() {
   if (activeStep === 1)
     return (
       <div className="flex-btn">
-        <button className="invisible" onClick={prevStep}>
+        <button className="invisible btn btn-white" onClick={prevStep}>
           Go Back
         </button>
         <button className="btn btn-blue" onClick={nextStep}>
