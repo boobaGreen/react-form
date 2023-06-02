@@ -1,7 +1,11 @@
 .sidebar {
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  background-size: contain;
+  align-items: flex-start;
+  background-size: cover;
   background-repeat: no-repeat;
+  width: fit-content;
+  margin: 0.8em;
+  border-radius: 10px;
+
 }

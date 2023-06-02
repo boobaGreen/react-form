@@ -1,3 +1,6 @@
 .layoutContainer {
-    background-color: red;
+    background-color: rgb(244, 237, 237);
+    width: 100vh;
+    height: 80vh;
+    display: flex;
 }

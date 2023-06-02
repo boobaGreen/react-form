@@ -1,12 +1,14 @@
-import styleApp from "./App.module.css";
+import "./fonts/Ubuntu-Regular.ttf";
+import "./fonts/Ubuntu-Bold.ttf";
+import "./fonts/Ubuntu-Medium.ttf";
 import { Layout } from "./components";
 
 // import layoutContainer from './Layout.module.css'
 function App() {
   return (
-    <>
-      <Layout className={styleApp.flex} />
-    </>
+    <div className="main-container">
+      <Layout />
+    </div>
   );
 }
 

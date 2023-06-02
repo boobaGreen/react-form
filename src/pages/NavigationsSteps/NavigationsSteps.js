@@ -9,10 +9,37 @@ export default function NavigationsSteps() {
   const prevStep = () => {
     setActiveStep(activeStep - 1);
   };
-  return (
-    <>
-      <button onClick={prevStep}>Go back</button>
-      <button onClick={nextStep}>Go next</button>
-    </>
-  );
+  if (activeStep > 1 && activeStep < 4)
+    return (
+      <div className="flex-btn">
+        <button className="btn btn-white" onClick={prevStep}>
+          Go Back
+        </button>
+        <button className="btn btn-blue" onClick={nextStep}>
+          Next Step
+        </button>
+      </div>
+    );
+  if (activeStep === 1)
+    return (
+      <div className="flex-btn">
+        <button className="invisible" onClick={prevStep}>
+          Go Back
+        </button>
+        <button className="btn btn-blue" onClick={nextStep}>
+          Next Step
+        </button>
+      </div>
+    );
+  if (activeStep === 4)
+    return (
+      <div className="flex-btn">
+        <button className="btn btn-white" onClick={prevStep}>
+          Go Back
+        </button>
+        <button className="invisible" onClick={nextStep}>
+          Next Step
+        </button>
+      </div>
+    );
 }

@@ -1,4 +1,3 @@
-import { activeStepContext } from "../../components/Layout";
 import Step from "../Step/Step";
 import styleDisplayStep from "./DisplaySteps.module.css";
 

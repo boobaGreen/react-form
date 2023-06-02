@@ -1,14 +1,12 @@
-import NavigationsSteps from '../NavigationsSteps/NavigationsSteps'
-import multiStepFormStyle from './MultiStepFormContainer.module.css'
+import NavigationsSteps from "../NavigationsSteps/NavigationsSteps";
 
-
-
-import React from 'react'
+import React from "react";
 
 export default function MultiStepFormContainer() {
   return (
-    <div className={multiStepFormStyle.ciao} >MultiStepFormContainer
-    <NavigationsSteps />
+    <div className="flex-vert-specebtw">
+      MultiStepFormContainer
+      <NavigationsSteps />
     </div>
-  )
+  );
 }
