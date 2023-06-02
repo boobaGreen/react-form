@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-form/static/css/main.26bc38fc.css",
+    "main.js": "/react-form/static/js/main.c2825cc4.js",
+    "static/media/Ubuntu-Regular.ttf": "/react-form/static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
+    "static/media/Ubuntu-Medium.ttf": "/react-form/static/media/Ubuntu-Medium.e37c5546eb1a6efc4818.ttf",
+    "static/media/Ubuntu-Bold.ttf": "/react-form/static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
+    "static/media/bg-sidebar-desktop.svg": "/react-form/static/media/bg-sidebar-desktop.6918153f38678372ceb14496fda9664c.svg",
+    "index.html": "/react-form/index.html",
+    "main.26bc38fc.css.map": "/react-form/static/css/main.26bc38fc.css.map",
+    "main.c2825cc4.js.map": "/react-form/static/js/main.c2825cc4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26bc38fc.css",
+    "static/js/main.c2825cc4.js"
+  ]
+}
