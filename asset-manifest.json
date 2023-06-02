@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-form/static/css/main.0cb60a11.css",
-    "main.js": "/react-form/static/js/main.df07ca33.js",
+    "main.css": "/react-form/static/css/main.2786d912.css",
+    "main.js": "/react-form/static/js/main.4911930c.js",
     "static/media/Ubuntu-Regular.ttf": "/react-form/static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
     "static/media/Ubuntu-Medium.ttf": "/react-form/static/media/Ubuntu-Medium.e37c5546eb1a6efc4818.ttf",
     "static/media/Ubuntu-Bold.ttf": "/react-form/static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
     "static/media/bg-sidebar-desktop.svg": "/react-form/static/media/bg-sidebar-desktop.6918153f38678372ceb14496fda9664c.svg",
     "index.html": "/react-form/index.html",
-    "main.0cb60a11.css.map": "/react-form/static/css/main.0cb60a11.css.map",
-    "main.df07ca33.js.map": "/react-form/static/js/main.df07ca33.js.map"
+    "main.2786d912.css.map": "/react-form/static/css/main.2786d912.css.map",
+    "main.4911930c.js.map": "/react-form/static/js/main.4911930c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cb60a11.css",
-    "static/js/main.df07ca33.js"
+    "static/css/main.2786d912.css",
+    "static/js/main.4911930c.js"
   ]
 }
