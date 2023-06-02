@@ -41,8 +41,8 @@ root {
     margin: auto;
     margin-top: 3em;
     margin-bottom: 2em;
-    height: 80%;
-    width: 60%;
+    height: 80vh;
+    width: 80vh;
     background-color: rgb(244, 237, 237);
 }
 
@@ -58,7 +58,7 @@ root {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    flex-grow: 2;
 }
 
 

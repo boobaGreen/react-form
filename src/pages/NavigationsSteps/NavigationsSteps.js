@@ -4,7 +4,7 @@ import { activeStepContext } from "../../components/Layout";
 export default function NavigationsSteps() {
   const { activeStep, setActiveStep } = useContext(activeStepContext);
   const nextStep = () => {
-    setActiveStep(activeStep + 1);
+    if (activeStep < 4) setActiveStep(activeStep + 1);
   };
   const prevStep = () => {
     setActiveStep(activeStep - 1);
@@ -37,8 +37,8 @@ export default function NavigationsSteps() {
         <button className="btn btn-white" onClick={prevStep}>
           Go Back
         </button>
-        <button className="invisible" onClick={nextStep}>
-          Next Step
+        <button className="btn btn-blue" onClick={nextStep}>
+          Confirm
         </button>
       </div>
     );
